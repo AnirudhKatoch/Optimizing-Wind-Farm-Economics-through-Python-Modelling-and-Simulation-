@@ -59,11 +59,6 @@ class Connection_specifications_class:
         for key, value in P_each_connection.items():
             for factor in range(1, 100000000000000000000000000000000000000000000000000000000000000000000000000):
 
-                # factor helps determine the number of cables that are required to satisfy the capacity of the connection
-                # But it does not run till end, but stops when values for each connection are found
-                # Based on the capacity "factor" can even add billions of cables to satisfy the
-                # capacity of the connection, so don't be afraid of the upper limit it is just to be in the safer limit.
-
                 Max_active_power_value = Max_active_power * factor
                 greater_values = Max_active_power_value[Max_active_power_value > value]
                 if len(greater_values) > 0:
