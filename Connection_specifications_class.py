@@ -11,7 +11,7 @@ Max_active_power = Cable_Database.Max_active_power
 Cable_Name = Cable_Database.Cable_Name
 # print("Cable_Name", Cable_Name)
 # print("\n")
-Cable_CostPer_m = Cable_Database.Cable_CostPer_m
+Cable_CostPer_km = Cable_Database.Cable_CostPer_km
 # print("Cable_CostPer_m", Cable_CostPer_m)
 # print("\n")
 
@@ -40,24 +40,26 @@ class Connection_specifications_class:
 
     def __init__(self,P_each_connection, Optimized_cable_length_for_each_connection):
 
-
         Cost_of_cable, Name_of_cable, Number_of_cables = self.Calculations(P_each_connection, Optimized_cable_length_for_each_connection)
         self.TotalCostOfEachConnection = Cost_of_cable  # right now in $/m , change it to $ by multiplying the cost by length of the connection
         self.NameOfCable = Name_of_cable
         self.NumberOfCables = Number_of_cables
-
-        print("")
 
     def Calculations(self,P_each_connection, Optimized_cable_length_for_each_connection):
 
         Closest_biggest_neighbour = {}
         Index = {}
         Name_of_cable = {}
-        Cost_of_cable_per_m = {}
+        Cost_of_cable_per_km = {}
         Number_of_cables = {}
 
         for key, value in P_each_connection.items():
             for factor in range(1, 100000000000000000000000000000000000000000000000000000000000000000000000000):
+
+                # factor helps determine the number of cables that are required to satisfy the capacity of the connection
+                # But it does not run till end, but stops when values for each connection are found
+                # Based on the capacity "factor" can even add billions of cables to satisfy the
+                # capacity of the connection, so don't be afraid of the upper limit it is just to be in the safer limit.
 
                 Max_active_power_value = Max_active_power * factor
                 greater_values = Max_active_power_value[Max_active_power_value > value]
@@ -67,7 +69,7 @@ class Connection_specifications_class:
                     Closest_biggest_neighbour[key] = closest_bigger_neighbor
                     Index[key] = index_of_neighbor
                     Name_of_cable[key] = Cable_Name[index_of_neighbor]
-                    Cost_of_cable_per_m[key] = Cable_CostPer_m[index_of_neighbor] * factor
+                    Cost_of_cable_per_km[key] = Cable_CostPer_km[index_of_neighbor] * factor
                     Number_of_cables[key] = factor
                     break
 
@@ -80,14 +82,17 @@ class Connection_specifications_class:
         # print("\n")
         # print("Name_of_cable:", Name_of_cable)
         # print("\n")
-        # print("Total_Cost_of_combined_cables:", Cost_of_cable_per_m)
+        # print("Total_Cost_of_combined_cables:", Cost_of_cable_per_km)
         # print("\n")
 
         Cost_of_cable = {}
 
+
+
         for key_x, value_x in Optimized_cable_length_for_each_connection.items():
-            key_y = key_x if key_x in Cost_of_cable_per_m else key_x[::-1]
-            if key_y in Cost_of_cable_per_m:
-                Cost_of_cable[key_y] = value_x * Cost_of_cable_per_m[key_y]
+            key_y = key_x if key_x in Cost_of_cable_per_km else key_x[::-1]
+            if key_y in Cost_of_cable_per_km:
+                Cost_of_cable[key_y] = value_x * Cost_of_cable_per_km[key_y]
+
 
         return Cost_of_cable, Name_of_cable, Number_of_cables
