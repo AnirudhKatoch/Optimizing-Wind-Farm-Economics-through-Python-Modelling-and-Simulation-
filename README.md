@@ -9,9 +9,22 @@ Cable Optimization model
 Input -  Turbine coordinates, Substation Coordinates, Cable Voltage and Turbine Rated Power
 Output - Total Cabling Costs, Total Connection Costs, Total Cabling length
 
-* Built a database as a class with cabling specifications
-* Built a class to minize the cabling lenght between turbines utilizing minimum spanning tree
-* Built a class to find a cable type required for each connection
-* Main class bring all these classes together providing the final output
+*Created a comprehensive database that includes cabling specifications.
+*Developed a specialized class to optimize cable length between turbines by employing a minimum spanning tree.
+*Designed a class to determine the specific cable type needed for each connection.
+*The main class seamlessly integrates all these components to deliver the final output and visualize the results.
 
-LandBOSSE model
+
+Model
+
+Visualized Results
+
+
+
+This model is integrated into LandBOSSE model
+
+Original LandBOSSE model - https://github.com/WISDEM/LandBOSSE.git
+
+Updated LandBOSSE model - [[https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6](https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6?usp=sharing)](https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6?usp=sharing)https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6?usp=sharing
+
+
