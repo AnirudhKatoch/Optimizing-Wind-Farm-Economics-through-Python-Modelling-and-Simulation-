@@ -6,7 +6,7 @@ The project significantly enhances wind farm economics, aligning calculations wi
 
 Cable Optimization model
 
-Input -  Turbine coordinates, Substation Coordinates, Cable Voltage and Turbine Rated Power
+Input -  Turbine coordinates, Substation Coordinates and Turbine Rated Power
 Output - Total Cabling Costs, Total Connection Costs, Total Cabling length
 
 *Created a comprehensive database that includes cabling specifications.
@@ -20,11 +20,19 @@ Model
 Visualized Results
 
 
-
 This model is integrated into LandBOSSE model
 
-Original LandBOSSE model - https://github.com/WISDEM/LandBOSSE.git
+##Original LandBOSSE model - https://github.com/WISDEM/LandBOSSE.git
 
-Updated LandBOSSE model - [[https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6](https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6?usp=sharing)](https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6?usp=sharing)https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6?usp=sharing
+The spefiications, user guidelines and software installations for the original LandBOSSE repository can be found above.
+
+##Updated LandBOSSE model - [[https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6](https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6?usp=sharing)]
+
+Updated LandBOSSE model
+
+Input - Turbine and Substation Coordinates
+(Additional inputs are retrieved from an Excel-based database located in the "input" folder)
+
+Output - The generated output is an Excel spreadsheet within the database, stored in the "output" folder.
 
 
