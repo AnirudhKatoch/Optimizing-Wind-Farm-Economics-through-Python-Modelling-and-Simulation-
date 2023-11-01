@@ -10,10 +10,10 @@ Input -  Turbine coordinates, Substation Coordinates, and Turbine Rated Power
 
 Output - Total Cabling Costs, Total Connection Costs, Total Cabling length
 
-*Created a comprehensive database that includes cabling specifications.
-*Developed a specialized class to optimize cable length between turbines by employing a minimum spanning tree.
-*Designed a class to determine the specific cable type needed for each connection.
-*The main class seamlessly integrates all these components to deliver the final output and visualize the results.
+* Created a comprehensive database that includes cabling specifications.
+* Developed a specialized class to optimize cable length between turbines by employing a minimum spanning tree.
+* Designed a class to determine the specific cable type needed for each connection.
+* The main class seamlessly integrates all these components to deliver the final output and visualize the results.
 
 
 Flow Chart for the Cable Optimization model - https://drive.google.com/file/d/1UJrp9X4oTxdnvE9nN2RzYFZoJZObinD1/view?usp=sharing
@@ -42,6 +42,10 @@ Input - Turbine and Substation Coordinates
 Output - The generated output is an Excel spreadsheet within the database, stored in the "output" folder. The resulting structure is similar to that of the original LandBOSSE model
 
 
-FLow char for the LandBOSSE model
+FLow char for the LandBOSSE model - https://drive.google.com/file/d/1nyCZIAXCWrKwof48kocVHtOdJUYbtJtJ/view?usp=sharing
+
+The primary limitation of the initial LandBOSSE model lies in its inability to accommodate input for wind farm layout as it builds it own layout based on number of turbines and average turbine spacing. This limitation poses challenges, as it hinders the accurate estimation of Balance of Plant Costs for irregular layouts. Consequently, essential adjustments have been implemented in the original LandBOSSE model, as elaborated below.
+
+
 
 
