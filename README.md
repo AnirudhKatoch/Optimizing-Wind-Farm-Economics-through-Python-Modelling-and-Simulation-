@@ -51,4 +51,9 @@ The primary limitation of the initial LandBOSSE model lies in its inability to a
 * Cabling Optimization model was created as a function and seamlessly integrated within these modules for improved functionality.
 * Various other essential modifications were implemented to meet specific project requirements.
 
+## Results
+
+
+Significant improvements were noted in the economic results, rendering them considerably more realistic.
+
 
