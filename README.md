@@ -1,6 +1,6 @@
 # Optimizing Wind Farm Economics through Python Modelling and Simulation
 
-## Wind farm economics were improved through the development of a Python-based cabling optimization model. This model was integrated into LandBOSSE, enhancing its ability to accommodate irregular wind farm layouts. The project's success was demonstrated through simulations and case studies.
+Wind farm economics were improved through the development of a Python-based cabling optimization model. This model was integrated into LandBOSSE, enhancing its ability to accommodate irregular wind farm layouts. The project's success was demonstrated through simulations and case studies.
 
 The project significantly enhances wind farm economics, aligning calculations with real-world Balance of Plant Costs. This was achieved by integrating the cable optimization model into the open-source systems engineering tool, LandBOSSE, thereby improving its flexibility and generating more accurate economic results that mirror real-world scenarios more closely.
 
@@ -22,14 +22,14 @@ Visualized Results ( In Progress)
 
 This model is integrated into LandBOSSE model
 
-##Original LandBOSSE model - https://github.com/WISDEM/LandBOSSE.git
+## Original LandBOSSE model - https://github.com/WISDEM/LandBOSSE.git
 (Put reference here)
 
 The spefiications, user guidelines and software installations for the original LandBOSSE repository can be found above.
 
 Model Visualizations( Put Reference here)
 
-##Updated LandBOSSE model - [[https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6](https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6?usp=sharing)]
+## Updated LandBOSSE model - [[https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6](https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6?usp=sharing)]
 
 Updated LandBOSSE model
 
