@@ -16,15 +16,17 @@ Output - Total Cabling Costs, Total Connection Costs, Total Cabling length
 *The main class seamlessly integrates all these components to deliver the final output and visualize the results.
 
 
-Model Visualizations ( In progress)
+Flow Chart - https://drive.google.com/file/d/1UJrp9X4oTxdnvE9nN2RzYFZoJZObinD1/view?usp=sharing
 
-Visualized Results ( In Progress)
+Result Visualization - https://drive.google.com/file/d/1yEDIGIHYGysfJYDdjWPyLpMrD1aQBkNu/view?usp=sharing
 
 
 This model is integrated into LandBOSSE model
 
-## Original LandBOSSE model - https://github.com/WISDEM/LandBOSSE.git
-(Put reference here)
+## Original LandBOSSE model 
+
+The Github repository for the original LandBOSSE model can be found here - https://github.com/WISDEM/LandBOSSE.git
+Read this for diving deeper into the model - https://www.nrel.gov/docs/fy19osti/72201.pdf
 
 The spefiications, user guidelines and software installations for the original LandBOSSE repository can be found above.
 
