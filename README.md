@@ -6,7 +6,7 @@ The project significantly enhances wind farm economics and helps in accurate cal
 
 ## Cable Optimization model
 
-Input -  Turbine coordinates, Substation Coordinates and Turbine Rated Power
+Input -  Turbine coordinates, Substation Coordinates, and Turbine Rated Power
 
 Output - Total Cabling Costs, Total Connection Costs, Total Cabling length
 
@@ -24,7 +24,7 @@ This model is integrated into the updated LandBOSSE model
 
 ## Original LandBOSSE model 
 
-The Github repository for the original LandBOSSE model can be found here - https://github.com/WISDEM/LandBOSSE.git
+The GitHub repository for the original LandBOSSE model can be found here - https://github.com/WISDEM/LandBOSSE.git
 
 Read this for diving deeper into the model - https://www.nrel.gov/docs/fy19osti/72201.pdf
 
@@ -37,9 +37,9 @@ The google drive link for LandBOSSE model can be found here - [[https://drive.go
 
 
 Input - Turbine and Substation Coordinates
-(Additional inputs are retrieved from an Excel-based database located in the "input" folder, it is similar to original LandBOSSE model)
+(Additional inputs are retrieved from an Excel-based database located in the "input" folder, it is similar to the original LandBOSSE model)
 
-Output - The generated output is an Excel spreadsheet within the database, stored in the "output" folder. The result structure is similar to that of original LandBOSSE model
+Output - The generated output is an Excel spreadsheet within the database, stored in the "output" folder. The resulting structure is similar to that of the original LandBOSSE model
 
 
 FLow char for the LandBOSSE model
