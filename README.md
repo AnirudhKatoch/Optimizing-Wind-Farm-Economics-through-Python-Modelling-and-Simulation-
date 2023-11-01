@@ -46,6 +46,9 @@ FLow char for the LandBOSSE model - https://drive.google.com/file/d/1nyCZIAXCWrK
 
 The primary limitation of the initial LandBOSSE model lies in its inability to accommodate input for wind farm layout as it builds it own layout based on number of turbines and average turbine spacing. This limitation poses challenges, as it hinders the accurate estimation of Balance of Plant Costs for irregular layouts. Consequently, essential adjustments have been implemented in the original LandBOSSE model, as elaborated below.
 
-
+* The model was enhanced to be invoked using the "run_landBOSSE" function, providing more user-friendly accessibility compared to the previous command-line approach.
+* Specific modules, namely CollectionCost, SitePreparationCost, and ErectionCost, were revamped to compute costs based on user-provided layouts.
+* Cabling Optimization model was created as a function and seamlessly integrated within these modules for improved functionality.
+* Various other essential modifications were implemented to meet specific project requirements.
 
 
