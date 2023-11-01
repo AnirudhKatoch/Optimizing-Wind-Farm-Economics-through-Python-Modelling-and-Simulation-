@@ -1,10 +1,10 @@
 # Optimizing Wind Farm Economics through Python Modelling and Simulation
 
-Wind farm economics were improved through the development of a Python-based cabling optimization model. This model was integrated into LandBOSSE, enhancing its ability to accommodate irregular wind farm layouts. The project's success was demonstrated through simulations and case studies.
+Wind farm economics were improved through the development of a Python-based cabling optimization model and integration of that into the LandBOSSE model. The LandBOSSE model was further modified to enhance its ability to accommodate irregular wind farm layouts. The project's success was demonstrated through simulations and case studies.
 
-The project significantly enhances wind farm economics, aligning calculations with real-world Balance of Plant Costs. This was achieved by integrating the cable optimization model into the open-source systems engineering tool, LandBOSSE, thereby improving its flexibility and generating more accurate economic results that mirror real-world scenarios more closely.
+The project significantly enhances wind farm economics and helps in accurate calculations of the Balance of Plant costs for wind farms,   generating more accurate economic results that mirror real-world scenarios more closely.
 
-Cable Optimization model
+## Cable Optimization model
 
 Input -  Turbine coordinates, Substation Coordinates and Turbine Rated Power
 
@@ -16,29 +16,32 @@ Output - Total Cabling Costs, Total Connection Costs, Total Cabling length
 *The main class seamlessly integrates all these components to deliver the final output and visualize the results.
 
 
-Flow Chart - https://drive.google.com/file/d/1UJrp9X4oTxdnvE9nN2RzYFZoJZObinD1/view?usp=sharing
+Flow Chart for the Cable Optimization model - https://drive.google.com/file/d/1UJrp9X4oTxdnvE9nN2RzYFZoJZObinD1/view?usp=sharing
 
 Result Visualization - https://drive.google.com/file/d/1yEDIGIHYGysfJYDdjWPyLpMrD1aQBkNu/view?usp=sharing
 
-
-This model is integrated into LandBOSSE model
+This model is integrated into the updated LandBOSSE model
 
 ## Original LandBOSSE model 
 
 The Github repository for the original LandBOSSE model can be found here - https://github.com/WISDEM/LandBOSSE.git
+
 Read this for diving deeper into the model - https://www.nrel.gov/docs/fy19osti/72201.pdf
 
-The spefiications, user guidelines and software installations for the original LandBOSSE repository can be found above.
+This is the original LandBOSSE model to which further modifications are made.
 
-Model Visualizations( Put Reference here)
 
-## Updated LandBOSSE model - [[https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6](https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6?usp=sharing)]
+## Updated LandBOSSE model 
 
-Updated LandBOSSE model
+The google drive link for LandBOSSE model can be found here - [[https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6](https://drive.google.com/drive/folders/1gJj-m61e4zeGtEx3Jzqwq_22JqeaxbT6?usp=sharing)]
+
 
 Input - Turbine and Substation Coordinates
-(Additional inputs are retrieved from an Excel-based database located in the "input" folder)
+(Additional inputs are retrieved from an Excel-based database located in the "input" folder, it is similar to original LandBOSSE model)
 
-Output - The generated output is an Excel spreadsheet within the database, stored in the "output" folder.
+Output - The generated output is an Excel spreadsheet within the database, stored in the "output" folder. The result structure is similar to that of original LandBOSSE model
+
+
+FLow char for the LandBOSSE model
 
 
