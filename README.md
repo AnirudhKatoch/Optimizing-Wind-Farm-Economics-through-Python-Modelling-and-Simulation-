@@ -7,6 +7,7 @@ The project significantly enhances wind farm economics, aligning calculations wi
 Cable Optimization model
 
 Input -  Turbine coordinates, Substation Coordinates and Turbine Rated Power
+
 Output - Total Cabling Costs, Total Connection Costs, Total Cabling length
 
 *Created a comprehensive database that includes cabling specifications.
