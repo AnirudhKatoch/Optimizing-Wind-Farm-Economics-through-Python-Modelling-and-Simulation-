@@ -17,9 +17,11 @@ Output - Total Cabling Costs, Total Connection Costs, Total Cabling length
 
 
 Flow Chart for the Cable Optimization model
+
 <img align="center" alt="Coding" width="600" src="https://i.imgur.com/NIZX2ug.jpg">
 
 Result Visualization 
+
 <img align="center" alt="Coding" width="600" src="https://i.imgur.com/v14vAKy.png">
 
 This model is integrated into the updated LandBOSSE model
