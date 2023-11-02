@@ -18,7 +18,11 @@ Output - Total Cabling Costs, Total Connection Costs, Total Cabling length
 
 Flow Chart for the Cable Optimization model - https://drive.google.com/file/d/1UJrp9X4oTxdnvE9nN2RzYFZoJZObinD1/view?usp=sharing
 
+<img align="center" alt="Coding" width="600" src="https://i.imgur.com/NIZX2ug.jpg">
+
 Result Visualization - https://drive.google.com/file/d/1yEDIGIHYGysfJYDdjWPyLpMrD1aQBkNu/view?usp=sharing
+
+<img align="center" alt="Coding" width="600" src="https://i.imgur.com/v14vAKy.png">
 
 This model is integrated into the updated LandBOSSE model
 
@@ -43,6 +47,8 @@ Output - The generated output is an Excel spreadsheet within the database, store
 
 
 FLow char for the LandBOSSE model - https://drive.google.com/file/d/1nyCZIAXCWrKwof48kocVHtOdJUYbtJtJ/view?usp=sharing
+
+<img align="center" alt="Coding" width="600" src="https://i.imgur.com/BOYtsfz.png">
 
 The primary limitation of the initial LandBOSSE model lies in its inability to accommodate input for wind farm layout as it builds its own layout based on number of turbines and average turbine spacing. This limitation poses challenges, as it hinders the accurate estimation of Balance of Plant Costs for irregular layouts. Consequently, essential adjustments have been implemented in the original LandBOSSE model, as elaborated below.
 
